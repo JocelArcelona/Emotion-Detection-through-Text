@@ -32,7 +32,19 @@ Wordcloud of Positive Sentiments:
 Wordcloud of Negative Sentiments:
 ![wcneg](https://user-images.githubusercontent.com/108106393/214900018-22f0e211-f2f9-4ee8-9ad6-dda040ffbe50.png)
 
-Producing the wordcloud is the last part of my EDA before I started Modeling. I created 7 models starting with a simple Logistic Regression model and  
+Producing the wordcloud is the last part of my EDA before I started Modeling. I created 7 models starting with a simple Logistic Regression model, I also used a bunch of Tree Based Classification Models and some Boosting Classifiers. The stacked Multionomial Naive Bayes and XGBoost ended up having the best f1 score out of all the models. I picked the f1 score as my metric to balance out my false negatives and false positives. Depending on your dataset and what the objective of the model is, you can focus on either recall or precision. 
+
+# Summary of Best Models
+![Screenshot (7)](https://user-images.githubusercontent.com/108106393/214905702-48fc7560-4cae-40f4-a6e7-02b3aea86056.png)
+ 
+# Stacking Classifier
+![CONF](https://user-images.githubusercontent.com/108106393/214907053-b0bffe2b-4f3c-417a-aaf1-1de5b54ce45c.png)
+
+This model produced an AUC of 0.76
+![AUC](https://user-images.githubusercontent.com/108106393/214907125-a200d092-a293-4869-85b4-69e4bc2aad55.png)
+
+
+
 
 
 
