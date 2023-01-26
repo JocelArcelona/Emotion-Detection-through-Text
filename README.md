@@ -32,6 +32,7 @@ Wordcloud of Positive Sentiments:
 Wordcloud of Negative Sentiments:
 ![wcneg](https://user-images.githubusercontent.com/108106393/214900018-22f0e211-f2f9-4ee8-9ad6-dda040ffbe50.png)
 
+Producing the wordcloud is the last part of my EDA before I started Modeling. I created 7 models starting with a simple Logistic Regression model and  
 
 
 
