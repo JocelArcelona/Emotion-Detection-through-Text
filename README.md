@@ -38,11 +38,15 @@ Producing the wordcloud is the last part of my EDA before I started Modeling. I 
 ![Screenshot (7)](https://user-images.githubusercontent.com/108106393/214905702-48fc7560-4cae-40f4-a6e7-02b3aea86056.png)
  
 # Stacking Classifier
+After tuning a bunch of classification models, I picked the Stacking Classifier as my best model
 ![CONF](https://user-images.githubusercontent.com/108106393/214907053-b0bffe2b-4f3c-417a-aaf1-1de5b54ce45c.png)
 
 This model produced an AUC of 0.76
 ![AUC](https://user-images.githubusercontent.com/108106393/214907125-a200d092-a293-4869-85b4-69e4bc2aad55.png)
 
+# Recommendations
+1. Gather more properly classified data and with these we would be able to drastically lower the misclassification between classes
+2. Try to use more advanced preprocessing procedures like bigrams/trigrams to get more contextual information than just individual words
 
 
 
