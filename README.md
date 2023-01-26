@@ -6,7 +6,7 @@
 This text based emotion detection project aims to clean, parse and analyze textual data from twitter to predict user emotions using Natural Language Processing. Another objective of this project is to use different classification models to figure out which one produces the best metric score. Picking the best classification model will provide us with the least emotion misclassification. This dataset contains tweet ids, tweets and the sentiment for each tweets. 
 
 # Business Problem 
-A social media company wants to improve user engagement on their platform by better understanding the emotions their users are expressing in their posts using a text based recognition system. 
+A social media company wants to improve user engagement on their platform by better understanding the emotions their users are expressing in their posts using a text based recognition system. This system aims to automatically classify emotions as positive or negative. It will be used to identify trending user topics and user sentiments. 
 
 # Data 
 This project used the Emotion Detection from Text dataset from Kaggle. It contained 40,000 datapoints, 3 rows and 13 unique sentiments.
