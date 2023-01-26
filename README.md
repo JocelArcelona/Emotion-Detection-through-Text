@@ -17,8 +17,21 @@ The first step in conducting this emotion detection project is to preprocess the
 
 This graph shows the distribution of positive and negative sentiment: 
 ![sentiment](https://user-images.githubusercontent.com/108106393/214896837-af3bf4f0-f9a8-49e8-9613-d9806b71f544.png)
+
 There's a little bit of class imbalance between the 2 classes, Class 0: 60% and Class 1: 40%
 
 These 2 visuals shows the top 20 words in each sentiment
 ![positivetop20](https://user-images.githubusercontent.com/108106393/214898406-0236ef37-657f-4353-a31e-ff5d088076fb.png)
 ![negativetop20](https://user-images.githubusercontent.com/108106393/214898437-0b45150c-691e-4b53-968b-64ce297c26dc.png)
+
+I also generated a wordcloud for the positive (1) and negative (0) sentiment:
+
+Wordcloud of Positive Sentiments:
+![wcpos](https://user-images.githubusercontent.com/108106393/214899981-d82d8b0e-2532-4fd3-b75c-a1c45f0f6b06.png)
+
+Wordcloud of Negative Sentiments:
+![wcneg](https://user-images.githubusercontent.com/108106393/214900018-22f0e211-f2f9-4ee8-9ad6-dda040ffbe50.png)
+
+
+
+
